@@ -1,11 +1,3 @@
 {"latestVersion":"5.00",
-  "latestVersionLog":" URI uri = new URI(url);
-            HttpURLConnection conn = (HttpURLConnection) uri.toURL().openConnection();
-            conn.setConnectTimeout(3 * 1000);
-            conn.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)");
-            InputStream inputStream = conn.getInputStream();
-
-            FileOutputStream fos = new FileOutputStream("D:/蜜雪冰城.pdf");
-            ProgressBarThread pbt = new ProgressBarThread((int) inputStream.available(), 1L, "000001",progressBar);//创建进度条
-            new Thread(pbt).start();//开启线程，刷新进度条",
+  "latestVersionLog":"111111111111,222222222222,33333333333333,444444444444,555555555555555,66666666666666666,7777777777777777,888888888888888888,99999999999999999,0000000000,-----121212,121,11111111111111122,单点",
   "downloadUrl":"https://github.com/aab163/appUpdate/releases/download/3.0/app.zip"}
