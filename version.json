@@ -1,1 +1,11 @@
-{"latestVersion":"5.00","latestVersionLog":"latestVersionLoglatestVersionLoglatestVersionLoglatestVersionLoglatestVersionLoglatestVersionLog","downloadUrl":"https://github.com/aab163/appUpdate/releases/download/untagged-44629e0d22d08e94c417/aab.zip"}
+{"latestVersion":"5.00",
+  "latestVersionLog":" URI uri = new URI(url);
+            HttpURLConnection conn = (HttpURLConnection) uri.toURL().openConnection();
+            conn.setConnectTimeout(3 * 1000);
+            conn.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 5.0; Windows NT; DigExt)");
+            InputStream inputStream = conn.getInputStream();
+
+            FileOutputStream fos = new FileOutputStream("D:/蜜雪冰城.pdf");
+            ProgressBarThread pbt = new ProgressBarThread((int) inputStream.available(), 1L, "000001",progressBar);//创建进度条
+            new Thread(pbt).start();//开启线程，刷新进度条",
+  "downloadUrl":"https://github.com/aab163/appUpdate/releases/download/3.0/app.zip"}
